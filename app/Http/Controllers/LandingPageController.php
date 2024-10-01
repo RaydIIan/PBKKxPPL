@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pengguna;
 use Illuminate\Http\Request;
 
 class LandingPageController extends Controller
 {
     public function index()
     {
-        return view('landingPage');
+        $data = Pengguna::all();
+        return view('LandingPage', compact('data'));
     }
+    
 }
