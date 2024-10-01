@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0288d1;
+    padding: 40px;
+    color: white;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    background-color: #ff7043;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d84315;
+}
+
+/* Courses Section */
+#courses {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course-card h3 {
+    margin-top: 0;
+}
+
+/* Teachers Section */
+#teachers {
+    background-color: #eeeeee;
+    padding: 50px;
+    text-align: center;
+}
+
+.teacher-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.teacher-card {
+    text-align: center;
+    width: 250px;
+}
+
+.teacher-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #0288d1;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
